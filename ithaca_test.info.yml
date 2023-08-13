@@ -4,6 +4,7 @@ type: theme
 base theme: false
 core_version_requirement: ^9 || ^10
 version: 0.0.1
+logo: images/logo.svg
 libraries:
    - itheca-test/styling
 
