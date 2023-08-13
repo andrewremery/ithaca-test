@@ -1,0 +1,19 @@
+<header class="header">
+	{{page.header}}
+	<nav class="menu">
+		{{page.menu}}
+	</nav>
+</header>
+<main class="main">
+	<article class="content">
+		{{page.content}}
+	</article>
+	{% if page.sidebar %}
+		<aside class="sidebar">
+			{{page.sidebar}}
+		</aside>
+	{% endif %}
+</main>
+<footer class="footer">
+	{{page.footer}}
+</footer>
