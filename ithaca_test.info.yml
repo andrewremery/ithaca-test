@@ -1,0 +1,16 @@
+name: Ithaca Test
+description: 'A Drupal theme for the Ithaca code test'
+type: theme
+base theme: false
+core_version_requirement: ^9 || ^10
+version: 0.0.1
+logo: images/logo.svg
+libraries:
+   - itheca-test/styling
+
+regions:
+  header: Header
+  menu: Menu
+  content: Content
+  sidebar: Sidebar
+  footer: Footer
