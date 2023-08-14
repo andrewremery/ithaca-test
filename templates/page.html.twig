@@ -4,15 +4,16 @@
 		{{page.menu}}
 	</nav>
 </header>
-<main class="main">
-	<article class="content">
-		{{page.content}}
-	</article>
+<main class="main" id="main-content-wrapper">
 	{% if page.sidebar %}
-		<aside class="sidebar">
+		<aside class="sidebar" id="main-sidebar">
 			{{page.sidebar}}
 		</aside>
 	{% endif %}
+	
+	<article class="content" id="main-content">
+		{{page.content}}
+	</article>
 </main>
 <footer class="footer">
 	{{page.footer}}
