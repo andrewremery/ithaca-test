@@ -1,5 +1,8 @@
 // Main Content
 #main-content-wrapper {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 	#main-sidebar {
 	}
 	#main-content {
