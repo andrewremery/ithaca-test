@@ -1,0 +1,38 @@
+// Header
+#main-header {
+	display: flex;
+	align-items: center;
+	padding: 0 2rem;
+	margin: 1rem 0;
+	#block-ithaca-test-site-branding {
+		img {
+			max-width: 300px;
+		}
+	}
+	// Menu
+	#main-menu {
+		width: 100%;
+		padding: 0 2rem;
+		ul {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+			list-style: none;
+			font-family: $sans-serif;
+			font-weight: 700;
+			text-transform: uppercase;
+			li {
+				a {
+					color: $dark-blue;
+					text-decoration: none;
+					&:hover {
+						color: $light-blue;
+					}
+					&.is-active {
+						border-bottom: 4px solid $yellow;
+					}
+				}
+			}
+		}
+	}
+}
