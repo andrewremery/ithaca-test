@@ -12,6 +12,7 @@ libraries:
 regions:
   header: Header
   menu: Menu
+  countdown: Countdown
   content: Content
   sidebar: Sidebar
   footer: Footer
