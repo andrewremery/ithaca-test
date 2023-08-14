@@ -3,6 +3,9 @@
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
+	.countdown{
+		font-family: $sans-serif;
+	}
 	#main-sidebar {
 	}
 	#main-content {
