@@ -1,10 +1,17 @@
 // Header
 #main-header {
-	display: flex;
-	align-items: center;
+	display: block;
 	padding: 0 2rem;
 	margin: 1rem 0;
+	@include lg {
+		display: flex;
+		align-items: center;
+	}
 	#block-ithaca-test-site-branding {
+		text-align: center;
+		@include lg {
+			text-align: left;
+		}
 		img {
 			max-width: 300px;
 		}
@@ -13,14 +20,30 @@
 	#main-menu {
 		width: 100%;
 		padding: 0 2rem;
+		#mobile-menu-button {
+			display: block;
+			margin-left: 25%;
+			width: 50%;
+			background: $dark-blue;
+			color: $white;
+			@include lg {
+				display: none;
+			}
+		}
+
 		ul {
-			display: flex;
+			text-align: center;
+			padding: 0;
 			flex-direction: row;
 			justify-content: space-evenly;
 			list-style: none;
 			font-family: $sans-serif;
 			font-weight: 700;
 			text-transform: uppercase;
+			display: none;
+			@include lg {
+				display: flex;
+			}
 			li {
 				a {
 					color: $dark-blue;
