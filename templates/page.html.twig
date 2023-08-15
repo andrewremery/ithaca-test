@@ -5,6 +5,11 @@
 	</nav>
 </header>
 <main class="main" id="main-content-wrapper">
+	{% if page.countdown %}
+		<section class="countdown">
+			{{page.countdown}}
+		</section>
+	{% endif %}
 	{% if page.sidebar %}
 		<aside class="sidebar" id="main-sidebar">
 			{{page.sidebar}}
