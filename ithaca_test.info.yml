@@ -3,7 +3,7 @@ description: 'A Drupal theme for the Ithaca code test'
 type: theme
 base theme: false
 core_version_requirement: ^9 || ^10
-version: 0.0.1
+version: 1.0.0
 logo: images/logo.svg
 libraries:
    - ithaca_test/global-styling
