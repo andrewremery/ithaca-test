@@ -40,7 +40,7 @@ For the exam I utilized two modules. Since this repo was created on the theme le
 [Gravitas countdown](https://www.drupal.org/project/gravitas_countdown) was used to create a countdown to an arbitrary date that we will say is when registration starts. *I did not create this module*. I chose this module because it appears to be well maintained and up to date.
 
 **SM Feed**
-This is a module I created. It has a router to the page /gallary. It returns a string to embed a Social media feed created with a third party. This is a problem I was asked to solve alot in WordPress at Boston University. I also wanted to demonstrate I can make a simple module. 
+This is a module I created. It has a router to the page /gallery. It returns a string to embed a Social media feed created with a third party. This is a problem I was asked to solve alot in WordPress at Boston University. I also wanted to demonstrate I can make a simple module. 
 
 # Agenda for presentation
 1) Show issues and explain my process for generating a todo list
