@@ -1,0 +1,26 @@
+<header class="header" id="main-header">
+	{{page.header}}
+	<nav class="menu" id="main-menu">
+		{{page.menu}}
+	</nav>
+</header>
+<main class="main" id="main-content-wrapper">
+	{% if page.countdown %}
+		<section class="countdown">
+			{{page.countdown}}
+		</section>
+	{% endif %}
+	{% if page.sidebar %}
+		<aside class="sidebar" id="main-sidebar">
+			{{page.sidebar}}
+		</aside>
+	{% endif %}
+
+	<article class="content" id="main-content">
+		{{page.content}}
+	</article>
+	<footer class="footer" id="site-footer">
+		{{page.footer}}
+	</footer>
+</main>
+
